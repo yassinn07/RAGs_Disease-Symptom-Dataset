@@ -1,0 +1,11 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "total_conditions": 246945,
+  "total_symptoms": 328,
+  "file_format": {
+    "embeddings": "PyTorch tensor (.pth)",
+    "knowledge_base": "JSON",
+    "metadata": "JSON"
+  }
+}
