@@ -162,7 +162,7 @@ Write your assessment:"""
         attention_mask=inputs["attention_mask"],
         max_new_tokens=150,
         num_return_sequences=1,
-        temperature=0.7,
+        temperature=0.1,
         top_p=0.9,
         do_sample=True,
         pad_token_id=tokenizer.eos_token_id,
